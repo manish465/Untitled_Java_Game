@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1bc0c773-ad8f-4fcb-aae0-d76870081fee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/acter/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/animation/AnimateSprite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/animation/AnimationHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/animation/AnimationLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/game/GameLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/game/Panel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/game/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/input/MouseInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/level/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/level/MainLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/manish/untitled_java_game/objects/SpriteMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Deco/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Effects/Explosion/Explosions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Effects/Fire/Fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Destroyed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_InConstruction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Barrel/Purple/Barrel_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Barrel/Red/Barrel_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Barrel/Yellow/Barrel_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Blue/TNT_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Dynamite/Dynamite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Purple/TNT_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Red/TNT_Red.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Red/TNT_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/TNT/Yellow/TNT_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Red/Torch_Red.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Red/Torch_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Castle/Castle_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Castle/Castle_Construction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Castle/Castle_Destroyed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Castle/Castle_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Castle/Castle_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Castle/Castle_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/House/House_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/House/House_Construction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/House/House_Destroyed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/House/House_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/House/House_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/House/House_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Tower/Tower_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Tower/Tower_Construction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Tower/Tower_Destroyed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Tower/Tower_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Tower/Tower_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Buildings/Tower/Tower_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Arrow/Arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Blue/Archer+Bow.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Blue/Archer_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Blue/Archer_Blue_(NoArms).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Blue/Archer_Bow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Purple/Archer_Purlple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Red/Archer_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Dead/Dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Pawn/Blue/Pawn_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Pawn/Yellow/Pawn_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Red/Warrior_Red.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.aseprite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Gold Mine/GoldMine_Active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Gold Mine/GoldMine_Destroyed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Gold Mine/GoldMine_Inactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/G_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/G_Idle_(NoShadow).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/G_Spawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/M_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/M_Idle_(NoShadow).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/M_Spawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/W_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/W_Idle_(NoShadow).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Resources/W_Spawn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Sheep/HappySheep_All.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Sheep/HappySheep_Bouncing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Sheep/HappySheep_Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Resources/Trees/Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Bridge/Bridge_All.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Ground/Shadows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Ground/Tilemap_Elevation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Ground/Tilemap_Flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Water/Foam/Foam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Water/Rocks/Rocks_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Water/Rocks/Rocks_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Water/Rocks/Rocks_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Water/Rocks/Rocks_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/Terrain/Water/Water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Banner_Connection_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Banner_Connection_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Banner_Connection_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Banner_Connection_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Banner_Horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Banner_Vertical.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Carved_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Carved_9Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Banners/Carved_Regular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Blue_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Blue_3Slides_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Blue_9Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Blue_9Slides_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Blue_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Disable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Disable_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Disable_9Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Hover_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Hover_9Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Red_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Red_3Slides_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Red_9Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Red_9Slides_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Buttons/Button_Red_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Disable_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Pressed_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Icons/Regular_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Pointers/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Pointers/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Pointers/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Pointers/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Pointers/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Pointers/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Down_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Left_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Right_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Blue_Connection_Up_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Down_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Left_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Right_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Red_Connection_Up_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_3Slides.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Left_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/UI/Ribbons/Ribbon_Yellow_Connection_Up_Pressed.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2aDeVkxnCVtSrAP2ea5I6kD4h8O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Projects/JAVA/Untitled_Java_Game/src/main/java/com/manish/untitled_java_game/game",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\JAVA\Untitled_Java_Game\src\main\java\com\manish\untitled_java_game\game" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manish.untitled_java_game.Main" />
+      <module name="game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manish.untitled_java_game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bc0c773-ad8f-4fcb-aae0-d76870081fee" name="Changes" comment="" />
+      <created>1703857604738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703857604738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
